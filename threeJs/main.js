@@ -1,4 +1,15 @@
-import * as THREE from 'three';
+/*
+main.js
+Este archivo contiene el código principal para crear un triángulo con colores por vértice en Three.js.
+
+CI-4321 Computación Gráfica I
+Autor: Amaranta Villegas
+Carnet: 16-11247
+
+
+*/
+
+import * as THREE from 'three'; // Importar la librería de Three.js
 
 // Crear la escena
 const scene = new THREE.Scene();
@@ -6,7 +17,7 @@ scene.background = new THREE.Color('#1b1e2b');  // Fondo oscuro (pero no negro)
 
 // Crear la cámara
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-camera.position.z = 2;
+camera.position.z = 2; // la posicion de la camara en el eje Z a 2 unidades con el fin de poder visualizar mejor la escena
 
 // Crear el renderizador
 const renderer = new THREE.WebGLRenderer();

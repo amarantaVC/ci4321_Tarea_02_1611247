@@ -31,7 +31,7 @@ Antes de poder compilar y ejecutar el código, asegurese de tener las siguientes
 
 ## Instrucciones para correr el proyecto
 
-Sigua estos pasos para ejecutar el programa:
+Siga estos pasos para ejecutar el programa:
 
 ### 1. Configurar el servidor X en Windows
 

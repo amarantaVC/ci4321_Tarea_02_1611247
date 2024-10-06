@@ -36,7 +36,7 @@ npm install --save-dev vite
 
 ## Instrucciones para correr el proyecto
 
-Sigue estos pasos para ejecutar el proyecto:
+Siga estos pasos para ejecutar el proyecto:
 
 ### 1. Instalar las dependencias: Para eso utilice el siguiente comando
 
@@ -52,9 +52,9 @@ npx vite
 
 ### 3. Visualización
 
-El proyecto debería abrirse en tu navegador predeterminado en http://localhost:3000, y deberías poder ver el triángulo renderizado con Three.js.
+La tarea debería abrirse en tu navegador predeterminado en http://localhost:3000, y deberia poder ver el triángulo renderizado con Three.js.
 
 ## Errores comunes y soluciones
 Error al ejecutar ```npx vite``` :
-Asegúrate de que Node.js y npm están correctamente instalados.
-Verifica que hayas instalado las dependencias correctamente ejecutando ```npm install``` .
+Asegurese de que Node.js y npm están correctamente instalados.
+Verifique que haya instalado las dependencias correctamente ejecutando ```npm install``` .
