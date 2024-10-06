@@ -16,17 +16,17 @@ document.body.appendChild(renderer.domElement);
 // Crear la geometría del triángulo
 const geometry = new THREE.BufferGeometry();
 const vertices = new Float32Array([
-    -0.5, -0.5, 0,  // Vértice 1
-     0, -0.5, 0,  // Vértice 2
-     0.0,  0.87, 0  // Vértice 3 (equilátero)
+    -0.5, -0.5, 0.0,  // Vértice 1
+     0.5, -0.5, 0.0,  // Vértice 2
+     0.0,  0.87, 0.0  // Vértice 3 (equilátero)
 ]);
 geometry.setAttribute('position', new THREE.BufferAttribute(vertices, 3));
 
 // Definir los colores para cada vértice
 const colors = new Float32Array([
-    1, 0, 0,  // Rojo para el vértice 1
-    0, 1, 0,  // Verde para el vértice 2
-    0, 0, 1   // Azul para el vértice 3
+    0, 1, 0,  // Rojo para el vértice 1
+    0, 0, 1,  // Verde para el vértice 2
+    1, 0, 0   // Azul para el vértice 3
 ]);
 geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
 
